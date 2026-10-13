@@ -36,5 +36,68 @@
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled"
+  },
+  "grafis": {
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "mode": "software",
+    "dir": "C:\\XyRDP\\grafis",
+    "debug": "",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "adapters": "Microsoft Hyper-V Video",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mesa": "26.2.4"
+  },
+  "extras": {
+    "lightshot": "skip",
+    "translucent": "ok",
+    "wallpaper": "ok",
+    "wallpaper_file": "wallpaper.jpg",
+    "vscode": "skip",
+    "notepadpp": "skip",
+    "admin": true
+  },
+  "samp": {
+    "play_tested": false,
+    "netfx3": "Enabled",
+    "samp_installed": false,
+    "status": "dependencies_ready",
+    "directplay": "Enabled",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "directx": "verified_x86_x64",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "gta_installed": false
+  },
+  "games": {
+    "samp": {
+      "gta_installed": false,
+      "status": "dependencies_ready",
+      "game_dir": null,
+      "samp_installed": false,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
+    },
+    "minecraft_bedrock": {
+      "status": "unsupported_environment",
+      "note": "Bedrock membutuhkan Windows desktop dengan Microsoft Store/Xbox. Windows Server bukan target yang didukung setup ini."
+    },
+    "minecraft_java": {
+      "status": "installer_ready",
+      "path": "C:\\Users\\Public\\Desktop\\RdpFree Installers\\MinecraftInstaller.msi",
+      "compatibility": "Launcher resmi mengelola runtime Java. Akun berlisensi dan dukungan OpenGL/GPU tetap diperlukan.",
+      "note": "Buka installer di sesi Windows, login dengan akun berlisensi, lalu uji game. Belum berarti game sudah berjalan."
+    },
+    "roblox": {
+      "status": "unsupported_environment",
+      "note": "Roblox mensyaratkan Windows 10/11 desktop 64-bit dan dukungan GPU. Windows Server runner bukan target yang didukung; memasang DX9 tidak mengubah ini."
+    }
+  },
+  "game_environment": {
+    "hypervisor_present": true,
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "runner": "windows-2022",
+    "play_tested": false,
+    "windows_server": true
   }
 }

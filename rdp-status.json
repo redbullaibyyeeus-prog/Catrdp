@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "yeeuspc-2",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -26,9 +26,10 @@
     "tailscale": {
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "magicdns": "yeeuspc-2.tail5033fe.ts.net.",
-      "hostname": "Yeeuspc-2",
-      "ip": "100.84.111.118"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -100,5 +101,6 @@
       "note": "Buka installer di sesi Windows, login dengan akun berlisensi, lalu uji game. Belum berarti game sudah berjalan."
     }
   },
-  "heartbeat_at": "2026-10-13T03:05:54.5962461Z"
+  "heartbeat_at": "2026-10-13T03:05:54.5962461Z",
+  "stopped_at": "2026-10-13T03:07:05Z"
 }
